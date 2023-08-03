@@ -3,6 +3,7 @@
 
 This repository contains the code for the HIS Interview Application. It is a web-based application for patient registration and management.
 
+In the media directory contains a simple demo of the working system
 
 **Instructions**
 
