@@ -9,16 +9,16 @@ This repository contains the code for the HIS Interview Application. It is a web
 
 To use the HIS Interview Application, follow the steps below:
 
-Clone this repository to your local machine:
+**Clone this repository to your local machine:**
 
 
 git clone https://github.com/kintokeanu/HISinterview.git
 
-Navigate into the project directory:
+**Navigate into the project directory:**
 
 cd HISinterview
 
-Create a new virtual environment and activate it:
+**Create a new virtual environment and activate it:**
 
 # On Windows (using Command Prompt)
 python -m venv venv
@@ -33,7 +33,7 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 
-Run the application:
+**Run the application:**
 
 python3 app.py
 
