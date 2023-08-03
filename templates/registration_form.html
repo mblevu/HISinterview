@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patients Registration Form</title>
+    <!--<link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #cf2e2e;
+            margin-bottom: 10px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        select {
+            height: 40px;
+        }
+
+        input[type="submit"] {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #cf2e2e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Patients Registration Form</h1>
+    <form method="POST" action="/">
+        <!-- Personal Information Section -->
+        <div class="form-group">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="telephone">Telephone:</label>
+            <input type="text" name="telephone" required>
+
+            <label for="id_number">ID Number:</label>
+            <input type="text" name="id_number" required>
+
+            <label for="date_of_birth">Date of Birth:</label>
+            <input type="date" name="date_of_birth" required>
+
+            <label for="address">Address:</label>
+            <input type="text" name="address" required>
+
+            <label for="county">County:</label>
+            <input type="text" name="county" required>
+
+            <label for="sub_county">Sub County:</label>
+            <input type="text" name="sub_county" required>
+
+            <label for="gender">Gender:</label>
+            <select name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="marital_status">Marital Status:</label>
+            <select name="marital_status" required>
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Widowed">Widowed</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <!-- Next of Kin Section -->
+        <div class="form-group">
+            <h2>Next of Kin</h2>
+            <label for="next_of_kin_name">Name:</label>
+            <input type="text" name="next_of_kin_name" required>
+
+            <label for="next_of_kin_telephone">Telephone:</label>
+            <input type="text" name="next_of_kin_telephone" required>
+
+            <label for="next_of_kin_id_number">ID Number:</label>
+            <input type="text" name="next_of_kin_id_number" required>
+
+            <label for="next_of_kin_date_of_birth">Date of Birth:</label>
+            <input type="date" name="next_of_kin_date_of_birth" required>
+
+            <label for="next_of_kin_gender">Gender:</label>
+            <select name="next_of_kin_gender" required>
+                <option value="Male">Male</option>k
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="next_of_kin_relationship">Relationship:</label>
+            <input type="text" name="next_of_kin_relationship" required>
+
+        </div>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
